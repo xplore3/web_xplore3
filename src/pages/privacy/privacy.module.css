@@ -1,0 +1,50 @@
+/* Cyberpunk background style */
+.cyberpunk-bg {
+    background: #121212; /* Dark background */
+    color: white;
+    padding: 40px 20px;
+    margin: 40px;
+}
+
+/* Title style */
+.title {
+    color: #ffffff; /* Bright purple */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Subtitle style */
+.sub-title {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* General text style */
+.text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* List style */
+.cyberpunk-bg ul {
+    font-size: 1rem;
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.cyberpunk-bg li {
+    margin-bottom: 10px;
+}
+
+/* Highlight style */
+.highlight {
+    color: #ffeeff; /* Highlighted text color */
+    text-decoration: none;
+}
+
+.cyberpunk-bg .section {
+    margin-top: 40px;
+}

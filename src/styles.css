@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+:root {
+  --primary-color: #ffffff;
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  font-family: "Arial, sans-serif";
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.cyberpunk-text {
+  text-shadow: 0 0 5px var(--primary-color);
+  letter-spacing: 1px;
+  color: var(--primary-color);
+}
+
+.cyberpunk-border {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px #359ADE;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #359ADE;
+}
+
+.targeting-btn {
+  overflow: visible;
+}
+
+.corner-animation {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  pointer-events: none;
+}
+
+.corner-animation::before,
+.corner-animation::after {
+  content: "";
+  position: absolute;
+  background: #359ADE;
+  opacity: 0;
+  animation: targetingAnimation 2s infinite;
+  left: -15px;
+  top: -15px;
+}
+
+.corner-animation::before {
+  width: 1px;
+  height: 15px;
+}
+
+.corner-animation::after {
+  width: 15px;
+  height: 1px;
+}
+
+.top-left {
+  top: 0px;
+  left: 0px;
+}
+
+.top-right {
+  top: 0px;
+  right: 0px;
+  transform: rotate(90deg);
+}
+
+.bottom-left {
+  bottom: 0px;
+  left: 0px;
+  transform: rotate(-90deg);
+}
+
+.bottom-right {
+  bottom: 0px;
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+@keyframes targetingAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
