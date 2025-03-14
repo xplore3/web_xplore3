@@ -28,7 +28,7 @@ const Header = ({ isHeaderVisible, isAtTop }: HeaderProps) => {
       </div>
       <div className="flex gap-2 sm:gap-4 mt-2 mx-2">
         <a
-          href="https://x.com/xplore3_ai"
+          href="https://x.com/ai_xplore3"
           target="_blank"
           rel="noopener noreferrer"
           className="w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center bg-white rounded-full"
@@ -39,7 +39,7 @@ const Header = ({ isHeaderVisible, isAtTop }: HeaderProps) => {
           />
         </a>
         <a
-          href="https://t.me/xplore3"
+          href="https://t.me/xplore3_ai"
           target="_blank"
           rel="noopener noreferrer"
           className="w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center bg-white rounded-full"
