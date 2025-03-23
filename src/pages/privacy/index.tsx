@@ -144,7 +144,7 @@ const Privacy: React.FC = () => {
           <li>Right to Erasure: Request data deletion if no longer necessary.</li>
         </ul>
         <div className={styles.text}>
-          To exercise your rights, contact us at Xplore3desk@gmail.com.
+          To exercise your rights, contact us at Vincent.Rapheal.07@gmail.com.
         </div>
       </div>
 
@@ -172,7 +172,7 @@ const Privacy: React.FC = () => {
       <div className={styles.section}>
         <div className={styles.subTitle}>Contact Us</div>
         <div className={styles.text}>
-          For questions or concerns about this Privacy Policy, email us at Xplore3desk@gmail.com.
+          For questions or concerns about this Privacy Policy, email us at Vincent.Rapheal.07@gmail.com.
         </div>
       </div>
     </div>
